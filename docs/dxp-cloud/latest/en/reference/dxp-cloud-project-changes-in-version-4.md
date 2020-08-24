@@ -40,7 +40,7 @@ The following table summarizes the new organization of your `liferay` service co
 | Other configuration overrides | lcp/liferay/config/{ENV}/ | liferay/configs/{ENV}/ |
 | Custom shell scripts | lcp/liferay/script/{ENV}/ | liferay/configs/{ENV}/scripts/ |
 | Hotfixes and patching tools | lcp/liferay/hotfix/{ENV}/ | liferay/configs/{ENV}/patching/ |
-| Licenses | lcp/liferay/license/{ENV}/ | lcp/configs/{ENV}/deploy/ |
+| Licenses | lcp/liferay/license/{ENV}/ | liferay/configs/{ENV}/deploy/ |
 
 ```note::
    Files within the ``configs/{ENV}/`` directory will be copied as overrides into the ``LIFERAY_HOME`` directory in the Liferay container in DXP Cloud.
